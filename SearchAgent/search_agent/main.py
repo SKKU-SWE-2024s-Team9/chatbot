@@ -53,9 +53,22 @@ def main():
 
     # SearchAgent 실행
     search_agent = SearchAgent(lab_csv, club_csv)
-    response, responseJson = search_agent.run('Can you recommend some Lab about NLP?')
-    print(response)
-    print(responseJson)
     
+    
+    # query = "Can you recommend some Lab about NLP?"
+    # response, responseJson = search_agent.run(query)
+    # print(response)
+    # print(responseJson)
+    
+    while True:
+        query = input("Enter a query or 'end' to stop: ")
+        if query.lower() == 'end':
+            print("Chat end")
+            break
+        
+        response, responseJson = search_agent.run(query)
+        print(response)
+        print(responseJson)
+        
 if __name__ == "__main__":
     main()

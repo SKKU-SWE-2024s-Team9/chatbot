@@ -1,0 +1,8 @@
+chromadb 
+langchain 
+tiktoken 
+openai 
+langchain-openai 
+langchain-community
+beautifulsoup4 
+requests

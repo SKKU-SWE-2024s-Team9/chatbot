@@ -1,0 +1,76 @@
+combined_info
+"ID: 1, Content: 성균관대학교 소프트웨어 분석 연구실에서는 기계-학습 기법들을 통해 안전한 소프트웨어를 만드는 연구를 함께 수행할 학생을 모집합니다. 관심 있으신 학생은 제 이메일(sooyoung.cha@skku.edu)로 연락 주시면 됩니다.
+학부 연구원 모집
+기본적으로는 대학원 진학에 관심이 있는 3,4 학년 학부 연구원을 모집합니다.
+연구원 기간 동안 저와 정기적인 미팅을 통해 연구의 기반을 준비하고 구체적인 연구 주제를 선정합니다.
+요구되는 자질: 성실성, 호기심 및 열정, 기본적인 코딩 실력.   
+대학원 신입생 모집
+저에게 간단한 자기 소개서와 학부 성적 증명서를 메일로 보내주신 후 저와 개인 면담을 진행합니다.  
+제 연구실은 대학원 입학 전에 인턴 기간을 거쳐야 하므로 입학하는 시기보다 미리 연락을 해주세요. 
+연구 환경 
+대학원생 등록금 및 생활비 지원. (학부 연구원 인건비 지원).
+개인 컴퓨터, 서버 등 쾌적한 연구에 필요한 장비 지원. 
+소프트웨어 공학 분야 TOP-4 국제 학회 참석 지원. (ICSE, FSE, ASE, ISSTA). Source: sooyoung.cha@skku.edu"
+"ID: Natural Language Processing
+Information Retrieval
+Text Mining
+Knowledge Graph Engineering
+Deep Learning
+Automatic text categorization by unsupervised learning
+Improving text categorization using the importance of sentences
+A study of term weighting schemes using class information for text classification
+An effective sentence extraction technique using contextual information and statistical approaches for text summarization, Content: https://scholar.google.com/citations?user=VQeFpwsAAAAJ&hl=ko&oi=ao. Source: 1"
+"ID: Text classification from unlabeled documents with bootstrapping and feature projection techniques
+Using classification techniques for informal requirements in the requirements analysis supporting system
+Multi task learning for knowledge graph completion with pre trained language models
+Fine grained post training for improving retrieval based dialogue systems
+Implementation of an efficient requirements analysis supporting system using similarity measure techniques, Content: https://scholar.google.com/citations?user=VQeFpwsAAAAJ&hl=ko&oi=ao. Source: 2"
+"ID: Word sense disambiguation based on word similarity calculation using word vector representation from a knowledge based graph
+Extracting comparative entities and predicates from texts using comparative type classification
+Learning with unlabeled data for text categorization using a bootstrapping and a feature projection technique
+Automatic text categorization using the importance of sentences, Content: https://scholar.google.com/citations?user=VQeFpwsAAAAJ&hl=ko&oi=ao. Source: 3"
+"ID: Effects of working fluids on the performance of a bi directional thermodiode for solar energy utilization in buildings
+How to improve text summarization and classification by mutual cooperation on an integrated framework
+How to use negative class information for Naive Bayes classification
+Named Entity Recognition using Machine Learning Methods and Pattern Selection Rules 
+Pseudo relevance feedback and statistical query expansion for web snippet generation, Content: https://scholar.google.com/citations?user=VQeFpwsAAAAJ&hl=ko&oi=ao. Source: 4"
+"ID: A korean sentence and document sentiment classification system using sentiment features
+Word sense disambiguation based on context selection using knowledge based word similarity, Content: https://scholar.google.com/citations?user=VQeFpwsAAAAJ&hl=ko&oi=ao. Source: 5"
+"ID: Data Driven Symbolic Execution
+Software Testing
+Software Engineering
+Learning Seed Adaptive Mutation Strategies for Greybox Fuzzing
+SymTuner  maximizing the power of symbolic execution by adaptively tuning external parameters
+METHOD FOR AUTOMATICALLY PRUNING SEARCH SPACE OF SYMBOLIC EXECUTION VIA MACHINE LEARNING
+Enhancing dynamic symbolic execution by automatically learning search heuristics
+Making symbolic execution promising by learning aggressive state pruning strategy, Content: https://scholar.google.com/citations?hl=ko&user=Ye0pjlAAAAAJ&view_op=list_works&sortby=pubdate. Source: 1"
+"ID: Effective white box testing of deep neural networks with adaptive neuron selection strategy
+Concolic testing with adaptively changing search heuristics
+A scalable learning algorithm for data driven program analysis
+Template guided concolic testing via online learning
+Automatically generating search heuristics for concolic testing
+Learning a strategy for choosing widening thresholds from a large codebase, Content: https://scholar.google.com/citations?hl=ko&user=Ye0pjlAAAAAJ&view_op=list_works&sortby=pubdate. Source: 2"
+"ID: Data Mining
+Machine Learning
+Social Networks
+Natural Language Processing
+Exploiting Interaction Links for Node Classification with Deep Graph Neural Networks
+A hybrid mood classification approach for blog text
+Stretchable array electromyography sensor with graph neural network for static and dynamic gestures recognition system
+Learning Procedures from Text  Codifying How to Procedures in Deep Neural Networks
+Highlight providing system and method based on hot topic event detection, Content: https://scholar.google.com/citations?user=0YEYuGIAAAAJ&hl=ko&oi=ao. Source: 1"
+"ID: Integrating robot task scripts with a cognitive architecture for cognitive human robot interactions
+A framework for understanding online group behaviors during a catastrophic event
+Real time panoramic video streaming system with overlaid interface concept for social media
+Social media based three screen TV service
+Designing a cognitive case based planning framework for home service robots
+Finding client side business flow tampering vulnerabilities, Content: https://scholar.google.com/citations?user=0YEYuGIAAAAJ&hl=ko&oi=ao. Source: 2"
+"ID: An interactive information seeking interface for exploratory search
+Laser induced carbonization for anticounterfeiting Tags
+Review summarization based on linguistic knowledge
+Strain localization in annealed Cu  Zr   metallic glass
+N Screen live baseball game watching system  novel interaction concepts within a public setting
+Immersive panorama TV service system
+Deep Dynamic Relational Classifiers  Exploiting Dynamic Neighborhoods in Complex Networks, Content: https://scholar.google.com/citations?user=0YEYuGIAAAAJ&hl=ko&oi=ao. Source: 3"
+"ID: User generated highlight system for baseball games with social media activities
+Trendy episode detection at a very short time granularity for intelligent VOD service  a case study of live baseball game, Content: https://scholar.google.com/citations?user=0YEYuGIAAAAJ&hl=ko&oi=ao. Source: 4"

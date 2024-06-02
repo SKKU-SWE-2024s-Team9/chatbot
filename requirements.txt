@@ -6,3 +6,5 @@ langchain-openai
 langchain-community
 beautifulsoup4 
 requests
+fastapi[all]
+uvicorn[standard]

@@ -21,7 +21,7 @@ class APIClient:
         if not os.path.isfile(filename):
             df.to_csv(filename, mode='w', index=False, header=True)
         else:
-            df.to_csv(filename, mode='a', index=False, header=False)
+            df.to_csv(filename, mode='w', index=False, header=True)
         print(f"Data saved to {filename}")
 
 def main():

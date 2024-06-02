@@ -9,7 +9,7 @@ from .api_client import APIClient
 import os
 
 # OpenAI API 키 설정
-os.environ["OPENAI_API_KEY"] = "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"
+# os.environ["OPENAI_API_KEY"] = "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"
 __all__ = [
     "CSVProcessor",
     "RAGTool",

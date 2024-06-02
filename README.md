@@ -15,10 +15,11 @@ SearchAgent는 대학생들이 자신의 취향에 맞는 연구실(Lab)과 동�
 
 ```bash
 pip install -r requirements.txt
+```
 
 1. 환경 변수 설정
 OpenAI API 키를 환경 변수로 설정합니다. 다음 명령어를 터미널에 입력합니다:
-
+```bash
 export OPENAI_API_KEY="your-openai-api-key"
 
 2. SearchAgent 초기화 및 실행

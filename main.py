@@ -31,7 +31,7 @@ def chat(
     request: ChatRequest, settings: Annotated[config.Settings, Depends(get_settings)]
 ):
 
-    api_base_url = f"http://localhost:{settings.api_port}/api"
+    api_base_url = f"http://{settings.api_url}/api"
 
     client = APIClient(api_base_url)
 

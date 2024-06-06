@@ -26,6 +26,7 @@ class ChatRequest(BaseModel):
     query: str
 
 
+@app.post("/api/chat")
 @app.post("/api/chat/")
 def chat(
     request: ChatRequest, settings: Annotated[config.Settings, Depends(get_settings)]

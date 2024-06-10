@@ -21,9 +21,9 @@ If you don't know the answer, just say that you don't know, don't try to make up
 
 You have to response every time in Korean.
 Following format is the format of the output if the question requires to recommend Clubs. You should recommend three Clubs following this format:
-Name: (name of the club)
-Description: (Short description of their focus or activities)
-Reaseon to like it: (The reason why the user might like it)
+동아리명: (name of the club)
+동아리 설명: (Short description of their focus or activities)
+추천 이유: (The reason why the user might like it)
 
 {context}
 

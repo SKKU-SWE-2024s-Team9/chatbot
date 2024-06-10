@@ -19,9 +19,9 @@ class APIClient:
     def save_to_csv(self, data, filename):
         df = pd.DataFrame(data)
         if not os.path.isfile(filename):
-            df.to_csv(filename, mode='w', index=False, header=True)
+            df.to_csv(filename, mode='w', index=False, header=True, encoding="utf-8-sig")
         else:
-            df.to_csv(filename, mode='w', index=False, header=True)
+            df.to_csv(filename, mode='w', index=False, header=True, encoding="utf-8-sig")
         print(f"Data saved to {filename}")
 
 def main():

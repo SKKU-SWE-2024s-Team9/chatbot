@@ -1,4 +1,5 @@
 from .csv_processor import CSVProcessor
+from .csv_processor import CSVProcessor_lab
 from .rag_tool import RAGTool
 from .qa_agent import QAAgent
 from .templates import LAB_TEMPLATE, CLUB_TEMPLATE
@@ -12,7 +13,7 @@ class SearchAgent:
         lab_processor = CSVProcessor(lab_csv, 'recommended.csv')
         lab_processor.process_csv()
 
-        club_processor = CSVProcessor(club_csv, 'recommended_club.csv')
+        club_processor = CSVProcessor_lab(club_csv, 'recommended_club.csv')
         club_processor.process_csv()
 
         lab_rag_tool = RAGTool(file_path='recommended.csv', template=LAB_TEMPLATE)

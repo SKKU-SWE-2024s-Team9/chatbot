@@ -1,4 +1,5 @@
 from .csv_processor import CSVProcessor
+from .csv_processor import CSVProcessor_lab
 from .rag_tool import RAGTool
 from .qa_agent import QAAgent
 from .lab import Lab, LabCollection
@@ -12,6 +13,7 @@ import os
 # os.environ["OPENAI_API_KEY"] = "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"
 __all__ = [
     "CSVProcessor",
+    "CSVProcessor_lab",
     "RAGTool",
     "QAAgent",
     "Lab",

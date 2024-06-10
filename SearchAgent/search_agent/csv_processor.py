@@ -9,11 +9,11 @@ class CSVProcessor:
       data = pd.read_csv(self.input_file)
       data = data.dropna()
 
-      selected_columns = ['랩실', 'description', 'email', 'homepageUrl', 'tags', 'representativeName', 'professor', 'googleScholarUrl', 'numPostDoc', 'numPhd', 'numMaster', 'numUnderGraduate', 'campus']
+      selected_columns = ['groupName', 'description', 'email', 'homepageUrl', 'tags', 'representativeName', 'professor', 'googleScholarUrl', 'numPostDoc', 'numPhd', 'numMaster', 'numUnderGraduate', 'campus']
       selected_df = data[selected_columns]
 
       def create_sentence(row):
-          return f"이 랩실 이름은 {row['랩실']}이야. {row['professor']} 교수님이 담당하시는 연구실이고 {row['description']} {row['campus']}에 위치해있고 현재 연구실에는 postdoc은 {row['numPostDoc']} 명, 박사 과정 학생은 {row['numPhd']} 명, 석사 과정 학생은 {row['numMaster']} 명, 학부연구생(인턴)은 {row['numUnderGraduate']} 명이야."
+          return f"이 랩실 이름은 {row['groupName']}이야. {row['professor']} 교수님이 담당하시는 연구실이고 {row['description']} {row['campus']}에 위치해있고 현재 연구실에는 postdoc은 {row['numPostDoc']} 명, 박사 과정 학생은 {row['numPhd']} 명, 석사 과정 학생은 {row['numMaster']} 명, 학부연구생(인턴)은 {row['numUnderGraduate']} 명이야."
 
       selected_df['combined_info'] = selected_df.apply(create_sentence, axis=1)
 
